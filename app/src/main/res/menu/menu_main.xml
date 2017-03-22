@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.davidk.davidk.MainActivity">
+    <item
+        android:id="@+id/sub"
+        android:orderInCategory="1"
+        android:title="Courses This Semister"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/wat"
+        android:orderInCategory="2"
+        android:title="Message of my Choice"
+        app:showAsAction="never" />
+</menu>
